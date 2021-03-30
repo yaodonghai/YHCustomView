@@ -16,7 +16,7 @@
 		E3560EBD261360FE00326B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3560EBC261360FE00326B66 /* main.m */; };
 		E3560EC7261360FE00326B66 /* YHCustomViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3560EC6261360FE00326B66 /* YHCustomViewTests.m */; };
 		E3560ED2261360FE00326B66 /* YHCustomViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3560ED1261360FE00326B66 /* YHCustomViewUITests.m */; };
-		E3560EE82613616C00326B66 /* YHCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3560EE72613616C00326B66 /* YHCustomView.m */; };
+		E37BE91426137225007601C6 /* YHCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = E37BE91326137225007601C6 /* YHCustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		E3560ECD261360FE00326B66 /* YHCustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHCustomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3560ED1261360FE00326B66 /* YHCustomViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCustomViewUITests.m; sourceTree = "<group>"; };
 		E3560ED3261360FE00326B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3560EE62613616C00326B66 /* YHCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCustomView.h; sourceTree = "<group>"; };
-		E3560EE72613616C00326B66 /* YHCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCustomView.m; sourceTree = "<group>"; };
+		E37BE91226137225007601C6 /* YHCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCustomView.h; sourceTree = "<group>"; };
+		E37BE91326137225007601C6 /* YHCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		E3560E9E261360FC00326B66 = {
 			isa = PBXGroup;
 			children = (
-				E3560EE52613615F00326B66 /* YHCustomView */,
+				E37BE91126137219007601C6 /* YHCustomView */,
 				E3560EA9261360FC00326B66 /* YHCustomViewExample */,
 				E3560EC5261360FE00326B66 /* YHCustomViewTests */,
 				E3560ED0261360FE00326B66 /* YHCustomViewUITests */,
@@ -141,11 +141,11 @@
 			path = YHCustomViewUITests;
 			sourceTree = "<group>";
 		};
-		E3560EE52613615F00326B66 /* YHCustomView */ = {
+		E37BE91126137219007601C6 /* YHCustomView */ = {
 			isa = PBXGroup;
 			children = (
-				E3560EE62613616C00326B66 /* YHCustomView.h */,
-				E3560EE72613616C00326B66 /* YHCustomView.m */,
+				E37BE91226137225007601C6 /* YHCustomView.h */,
+				E37BE91326137225007601C6 /* YHCustomView.m */,
 			);
 			path = YHCustomView;
 			sourceTree = "<group>";
@@ -280,7 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3560EB2261360FC00326B66 /* ViewController.m in Sources */,
-				E3560EE82613616C00326B66 /* YHCustomView.m in Sources */,
+				E37BE91426137225007601C6 /* YHCustomView.m in Sources */,
 				E3560EAC261360FC00326B66 /* AppDelegate.m in Sources */,
 				E3560EBD261360FE00326B66 /* main.m in Sources */,
 				E3560EAF261360FC00326B66 /* SceneDelegate.m in Sources */,
